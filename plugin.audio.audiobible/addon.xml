@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.audio.audiobible" name="Audio Bible" version="0.1.0" provider-name="AddonScriptorDE">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.xbmcswift2" version="2.4.0"/>
+		<import addon="script.common.plugin.cache" version="0.9.1"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">XBMC interface to Audio Bible</summary>
+        <language>en</language>
+        <description lang="en">XBMC interface to Audio Bible.  Audio provided by BibleGateway.com</description>
+    <platform>all</platform>
+    </extension>
+</addon>

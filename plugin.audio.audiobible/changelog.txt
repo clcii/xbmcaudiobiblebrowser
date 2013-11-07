@@ -1,0 +1,6 @@
+0.0.1
+- First Try
+0.0.2
+- First Working prototype
+0.1.0
+- All current features implemented
